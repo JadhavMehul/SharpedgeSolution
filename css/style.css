@@ -1,0 +1,3024 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@font-face {
+  font-family: "DINOT";
+  src: url("../fonts/DINOT-Light.woff2") format("woff2"), url("../fonts/DINOT-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DIN";
+  src: url("DIN-Regular.woff2") format("woff2"), url("DIN-Regular.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DINOT";
+  src: url("../fonts/DINOT-Black.woff2") format("woff2"), url("../fonts/DINOT-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DINOT";
+  src: url("../fonts/DINOT-Bold.woff2") format("woff2"), url("../fonts/DINOT-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "DINOT";
+  src: url("../fonts/DINOT-Medium.woff2") format("woff2"), url("../fonts/DINOT-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+.common-form .form-control {
+  background: #1F5259;
+  border-radius: 5px;
+  padding: 8px 24px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  border: 0;
+}
+.common-form .form-control::-moz-placeholder {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.common-form .form-control::placeholder {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.common-form .form-check .form-check-input {
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  width: 24px;
+  height: 24px;
+  background: #063F47;
+  margin-right: 16px;
+  margin-top: 0;
+}
+.common-form .form-check .check-label {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 200%;
+  color: #FFFFFF;
+  text-transform: unset;
+}
+.common-form .form-check .check-label a {
+  text-decoration: none;
+  color: rgb(210, 168, 62);
+}
+.common-form .form-check .form-check-input:checked[type=checkbox] {
+  background: rgb(210, 168, 62);
+}
+.common-form .form-check .form-check-input:checked {
+  background-color: #FFFFFF;
+}
+
+header {
+  background: #1F5259;
+}
+
+.scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #1F5259;
+  transition: 0.3s;
+  z-index: 9;
+}
+
+.desktop-nav .container {
+  max-width: 1439px;
+}
+.desktop-nav .logo {
+  margin-right: 216px;
+}
+.desktop-nav .desktop-nav-cover {
+  height: 100px;
+}
+.desktop-nav .desktop-nav-cover .active {
+  color: #D2A83E;
+}
+.desktop-nav .nav-link {
+  font-family: "DINOT";
+  color: white;
+  text-transform: uppercase;
+  padding: 0 56px 0 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.135em;
+}
+.desktop-nav .navRightSide {
+  text-align: right;
+  display: flex;
+  justify-content: end;
+}
+.desktop-nav .navRightSide .nav-right-side-icons {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  margin-left: 38px;
+}
+.desktop-nav .navRightSide .nav-right-side-icons .currency-num {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  font-size: 13px;
+  background: #F6C23E;
+  border-radius: 50%;
+  line-height: 16px;
+  text-align: center;
+  position: absolute;
+  bottom: -6px;
+  left: -4px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 7.39102px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.desktop-nav .navRightSide .currencybox .dropdown-menu {
+  padding: 12px 24px;
+  min-width: inherit;
+  background: #FFFFFF;
+  border: 0px;
+  border-radius: 0px;
+  width: 101px;
+  transform: translate3d(1.4px, 62.4px, 0px) !important;
+  box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.25);
+}
+.desktop-nav .navRightSide .currencybox .dropdown-menu li .active {
+  color: #D2A83E;
+  background: transparent;
+}
+.desktop-nav .navRightSide .currencybox .dropdown-menu li a {
+  color: #3C3C3C;
+  text-align: center;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+  color: #3C3C3C;
+  padding: 12px 0 12px 0;
+}
+.desktop-nav .navRightSide .currencybox .dropdown-menu li a:hover {
+  background-color: transparent;
+}
+.desktop-nav .navRightSide .currencybox .dropdown-menu li:hover {
+  background: transparent;
+}
+.desktop-nav .navRightSide .cartdropdownbox {
+  background: #FFFFFF;
+  border: 4px solid #F4F4F4;
+  border-radius: 0px 0px 20px 20px;
+  padding: 24px;
+  width: 460px;
+  transform: inherit !important;
+  top: 64px !important;
+  left: -303px !important;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cart-title {
+  margin-bottom: 24px;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cart-title h3 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.0239px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  color: #0E0E0E;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #9B9B9B;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  background: #577D82;
+  border-radius: 10px;
+  padding: 16px;
+  position: relative;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo::after {
+  content: " ";
+  display: inline-block;
+  background: #3C3C3C;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 108%;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfoimg {
+  max-width: 88px;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent {
+  max-width: 275px;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .topproductinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .topproductinfo h3 {
+  margin: 0px;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .topproductinfo h3 a {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  color: #E7A727;
+  text-decoration: none;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .topproductinfo .cart_close {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .topproductinfo .cart_close span {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 200%;
+  color: #FFFFFF;
+  margin-left: 6px;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_productpara {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 200%;
+  color: #FFFFFF;
+  margin: 8px 0px;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm {
+  display: flex;
+  justify-content: space-between;
+  align-items: self-end;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart_price {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  color: #E7A727;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart-productqty {
+  display: flex;
+  align-items: center;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart-productqty .input-cart {
+  margin: 0px 10px;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart-productqty .input-cart input {
+  width: 30px;
+  border: none;
+  text-align: center;
+  padding: 0;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  background: transparent;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart-productqty .input-cart input::-webkit-outer-spin-button,
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart-productqty .input-cart input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart-productqty .input-cart input[type=number] {
+  -moz-appearance: textfield;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart-total {
+  margin: 32px 0px 8px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #3C3C3C;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart-total .cart-ordertotal {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #0E0E0E;
+  margin-right: 24px;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart-total .cart-pricetotal {
+  font-family: "Open Sans", "Sans Serif ";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #0E0E0E;
+}
+.desktop-nav .navRightSide .cartdropdownbox .cartdropdownMain .cart_checkoutbtn a {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 7.5px 24px;
+  background: #E7A727;
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #1A021B;
+}
+
+#MobileMenu .modal-content .modal-header {
+  background: #1F5259;
+  padding: 17px 19px;
+}
+
+#MobileMenu2 .modal-content .modal-header {
+  background: #1F5259;
+  padding: 17px 19px;
+}
+#MobileMenu2 .cartdropdownbox {
+  background: #FFFFFF;
+  border-radius: 0px;
+  padding: 40px 24px;
+  width: 100%;
+  transform: inherit !important;
+  top: 63px !important;
+  left: -428px !important;
+}
+#MobileMenu2 .cartdropdownbox .cart-title {
+  margin-bottom: 24px;
+}
+#MobileMenu2 .cartdropdownbox .cart-title h3 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.0239px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  color: #0E0E0E;
+  font-size: 24px;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  background: #577D82;
+  border-radius: 10px;
+  padding: 16px;
+  position: relative;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo::after {
+  content: " ";
+  display: inline-block;
+  background: #3C3C3C;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 108%;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfoimg {
+  width: 72px;
+  margin-right: 11px;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent {
+  width: 200px;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .topproductinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .topproductinfo h3 {
+  margin: 0px;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .topproductinfo h3 a {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 144.31%;
+  /* or 14px */
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+  color: #E7A727;
+  text-decoration: none;
+  display: block;
+  text-decoration: none;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .topproductinfo .cart_close {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .topproductinfo .cart_close span {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 200%;
+  color: #FFFFFF;
+  margin-left: 6px;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_productpara {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 137.37%;
+  /* or 15px */
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #FFFFFF;
+  margin: 10px 0px;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm {
+  display: flex;
+  justify-content: space-between;
+  align-items: self-end;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart_price {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 158.02%;
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+  text-transform: capitalize;
+  color: #E7A727;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart-productqty {
+  display: flex;
+  align-items: center;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart-productqty .input-cart {
+  margin: 0px 10px;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart-productqty .input-cart input {
+  width: 30px;
+  border: none;
+  text-align: center;
+  padding: 0;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 158.02%;
+  letter-spacing: 0.135em;
+  color: #FFFFFF;
+  background: transparent;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart-productqty .input-cart input::-webkit-outer-spin-button,
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart-productqty .input-cart input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_productinfo .cart_productinfocontent .cart_pricebtm .cart-productqty .input-cart input[type=number] {
+  -moz-appearance: textfield;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart-total {
+  margin: 32px 0px 8px 0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #3C3C3C;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart-total .cart-ordertotal {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #0E0E0E;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart-total .cart-pricetotal {
+  font-family: "Open Sans", "Sans serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #0E0E0E;
+}
+#MobileMenu2 .cartdropdownbox .cartdropdownMain .cart_checkoutbtn a {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+  display: block;
+  margin-top: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 43px;
+  padding: 7.5px 24px;
+  background: #E7A727;
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #1A021B;
+}
+
+.mobile-nav {
+  background: #1F5259;
+}
+.mobile-nav .row {
+  height: 75px;
+  align-items: center;
+}
+.mobile-nav .modal-content {
+  background: #35646A;
+}
+.mobile-nav .modal-content .mobile-nav-item {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  padding: 22px;
+}
+.mobile-nav .modal-content .currencybox .nav-right-side-icons {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  padding: 22px;
+}
+.mobile-nav .modal-content .currencybox .dropdown-menu.show {
+  transform: inherit !important;
+  position: inherit !important;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 0;
+  border-top: 0;
+}
+.mobile-nav .modal-content .currencybox .dropdown-menu.show li .active {
+  color: #D2A83E;
+  background: transparent;
+}
+.mobile-nav .modal-content .currencybox .dropdown-menu.show li a {
+  color: #3C3C3C;
+  text-align: center;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+  color: #3C3C3C;
+  padding: 12px;
+}
+.mobile-nav .modal-content .currencybox .dropdown-menu.show li a:hover {
+  background-color: transparent;
+}
+.mobile-nav .modal-content .mobile-nav-item.active {
+  background: #063F47;
+  color: white;
+}
+
+footer {
+  background: url(../images/footer-bg.png) no-repeat top center;
+  background-size: cover;
+  padding: 64px 0;
+}
+footer .left-part {
+  max-width: 385px;
+}
+footer .left-part .contact-info {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .left-part .contact-info a {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .left-part .contact-info a span {
+  font-weight: 700;
+}
+footer .right-part {
+  max-width: 428px;
+  margin: auto;
+}
+footer .right-part .link-sec {
+  display: flex;
+  flex-direction: row;
+  gap: 87px;
+}
+footer .right-part .link-sec ul {
+  list-style: none;
+  padding: 0;
+}
+footer .right-part .link-sec .right-link ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer .right-part .link-sec .right-link ul li a {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .right-part .link-sec .left-link ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer .right-part .link-sec .left-link ul li a {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .right-part p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  margin-top: 66px;
+}
+
+.home-top-sec {
+  background: #063F47;
+  border-bottom: 3px solid #FFFFFF;
+  padding: 100px 0;
+}
+.home-top-sec .home-top-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 110px;
+  max-width: 1560px;
+  margin: auto 110px auto auto;
+}
+.home-top-sec .home-top-cont .ourmotto-part {
+  max-width: 627.48px;
+  width: 100%;
+  margin: auto 0 auto auto;
+}
+.home-top-sec .home-top-cont .ourmotto-part h2 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #D2A83E;
+}
+.home-top-sec .home-top-cont .ourmotto-part h1 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 82px;
+  color: #FFFFFF;
+}
+.home-top-sec .home-top-cont .ourmotto-part p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin: 32px 0px;
+}
+.home-top-sec .home-top-cont .ourmotto-part .home-topbtn {
+  margin-bottom: 32px;
+}
+.home-top-sec .home-top-cont .ourmotto-part .home-topbtn .discover-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+.home-top-sec .home-top-cont .ourmotto-part .scrolldown {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+}
+.home-top-sec .home-top-cont .home-image-part {
+  max-width: 823px;
+  width: 100%;
+}
+
+.professional-section {
+  padding: 64px 0;
+  background: url(../images/professional-list-bg.png) no-repeat bottom 20% center;
+}
+.professional-section .professional-title h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #063F47;
+}
+.professional-section .professional-title p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  color: #063F47;
+  max-width: 587px;
+  width: 100%;
+  margin: 32px auto auto auto;
+  text-align: center;
+}
+.professional-section .professional-list-sec {
+  margin-top: 50px;
+}
+.professional-section .professional-list-sec .professional-title-content {
+  background: #1F5259;
+  border-radius: 10px;
+  max-width: 313px;
+  max-width: 313px;
+  text-align: center;
+  padding: 31px 0px;
+}
+.professional-section .professional-list-sec .professional-title-content h3 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.0239px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  color: #0E0E0E;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+.professional-section .professional-list-sec .professional-title-content p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin: 15px 0;
+}
+.professional-section .professional-list-sec .professional-title-content .explore-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+.professional-section .professional-list-sec .professional-title-content:hover {
+  background: #35646A;
+}
+.professional-section .mob-professional-list .professional-title-content {
+  background: #1F5259;
+  border-radius: 10px;
+  max-width: 313px;
+  text-align: center;
+  padding: 31px 15px;
+}
+.professional-section .mob-professional-list .professional-title-content h3 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.0239px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  color: #0E0E0E;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+.professional-section .mob-professional-list .professional-title-content p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin: 15px 0;
+}
+.professional-section .mob-professional-list .professional-title-content .explore-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+.professional-section .mob-professional-list .professional-title-content:hover {
+  background: #35646A;
+  border: 1px solid #FFFFFF;
+}
+
+.whatweoffer-sec {
+  background: #063F47;
+  padding: 40px 0 108px 0;
+}
+.whatweoffer-sec .whatweoffer-cont {
+  background: #1F5259;
+  border-radius: 20px;
+  padding: 70px 40px;
+  position: relative;
+}
+.whatweoffer-sec .whatweoffer-cont::after {
+  content: url(../images/whatweoffer-bottom-triangle.svg);
+  position: absolute;
+  bottom: -4%;
+  right: -7%;
+}
+.whatweoffer-sec .whatweoffer-cont .whatwe-description {
+  max-width: 539px;
+  margin: auto;
+}
+.whatweoffer-sec .whatweoffer-cont .whatwe-description h2 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #D2A83E;
+}
+.whatweoffer-sec .whatweoffer-cont .whatwe-description h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #063F47;
+  color: #FFFFFF;
+  text-align: left;
+}
+.whatweoffer-sec .whatweoffer-cont .whatwe-description p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  color: #FFFFFF;
+  margin: 50px 0;
+}
+.whatweoffer-sec .whatweoffer-cont .whatwe-description .abt-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+
+.popular-products-section {
+  padding: 40px 0;
+  background: url(../images/professional-list-bg.png) no-repeat bottom 40% center;
+}
+.popular-products-section .popular-contain {
+  max-width: 1439px;
+  width: 100%;
+  margin: auto;
+}
+.popular-products-section .popular-product-title {
+  text-align: center;
+}
+.popular-products-section .popular-product-title h2 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #D2A83E;
+}
+.popular-products-section .popular-product-title h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #063F47;
+}
+.popular-products-section .popular-product-title p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  color: #FFFFFF;
+}
+.popular-products-section .popularpro-slider {
+  margin: 50px 0 0 0;
+}
+.popular-products-section .popularpro-slider .product-box {
+  max-width: 330px;
+  background: #1F5259;
+  border-radius: 10.7333px;
+  padding: 33px 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-bottom: 40px;
+}
+.popular-products-section .popularpro-slider .product-box .product-desc {
+  text-align: left;
+}
+.popular-products-section .popularpro-slider .product-box .ebook {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.32px;
+  line-height: 25px;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  color: #577D82;
+  margin-bottom: 16px;
+}
+.popular-products-section .popularpro-slider .product-box h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.popular-products-section .popularpro-slider .product-box p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.4667px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.popular-products-section .popularpro-slider .product-box .add-tocart-inline {
+  align-items: center;
+}
+.popular-products-section .popularpro-slider .product-box .add-tocart-inline h5 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.32px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  color: #D2A83E;
+}
+.popular-products-section .popularpro-slider .product-box .add-tocart-inline .addcart-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+  border: 1.07333px solid #F6C23E;
+  border-radius: 10.7333px;
+  background: transparent;
+}
+.popular-products-section .popularpro-slider .explore-more-btn {
+  margin-top: 0px;
+  text-align: center;
+}
+.popular-products-section .popularpro-slider .explore-more-btn .explore-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+
+.why-sharp-sec {
+  background: #063F47;
+  padding: 40px 0;
+}
+.why-sharp-sec .why-sharp-content {
+  background: #1F5259;
+  border-radius: 20px;
+  padding: 75px 0;
+  position: relative;
+}
+.why-sharp-sec .why-sharp-content::before {
+  content: url(../images/whysharp-top-triangle.svg);
+  position: absolute;
+  top: 10%;
+  left: -7%;
+}
+.why-sharp-sec .why-sharp-content .why-sharp-left {
+  max-width: 599px;
+  margin-left: auto;
+}
+.why-sharp-sec .why-sharp-content .why-sharp-left h2 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #D2A83E;
+}
+.why-sharp-sec .why-sharp-content .why-sharp-left h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #063F47;
+  color: #FFFFFF;
+  text-align: left;
+}
+.why-sharp-sec .why-sharp-content .why-sharp-left p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  color: #FFFFFF;
+  margin: 32px 0;
+  max-width: 529px;
+}
+.why-sharp-sec .why-sharp-content .why-sharp-left .learn-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+.why-sharp-sec .why-guide-right .icon-box {
+  text-align: center;
+  max-width: 245px;
+}
+.why-sharp-sec .why-guide-right .icon-box .icon-desc h2 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 21px 0 15px 0;
+}
+.why-sharp-sec .why-guide-right .icon-box .icon-desc p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.company-facts-sec {
+  padding: 40px 0;
+}
+.company-facts-sec .company-facts-content .comp-facts-left {
+  max-width: 622px;
+  width: 100%;
+  position: relative;
+}
+.company-facts-sec .company-facts-content .comp-facts-left::after {
+  content: url(../images/company-fact-pattern.svg);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.company-facts-sec .company-facts-content .comp-facts-left .headings {
+  max-width: 500px;
+  margin-left: 0;
+}
+.company-facts-sec .company-facts-content .comp-facts-left h2 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #D2A83E;
+}
+.company-facts-sec .company-facts-content .comp-facts-left h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #063F47;
+  text-align: left;
+}
+.company-facts-sec .company-facts-content .comp-facts-left p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-top: 32px;
+  color: #063F47;
+  font-weight: 500;
+  max-width: 522px;
+  margin-left: 0;
+}
+.company-facts-sec .comp-facts-right {
+  text-align: center;
+}
+.company-facts-sec .comp-facts-right .icon-box {
+  background: #35646A;
+  border: 1px solid #577D82;
+  border-radius: 10px;
+  padding: 15px 9px 7px 9px;
+  max-width: 123px;
+  margin: auto;
+}
+.company-facts-sec .comp-facts-right .icon-box .icon-content {
+  position: relative;
+  color: #D2A83E;
+  font-family: "DINOT";
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+.company-facts-sec .comp-facts-right .icon-box .icon-content span {
+  position: relative;
+  top: -11px;
+  right: 3px;
+  font-size: 14px;
+}
+.company-facts-sec .comp-facts-right .facticon-title {
+  margin-top: 34px;
+}
+.company-facts-sec .comp-facts-right .facticon-title h5 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  color: #063F47;
+}
+
+.ourmission-sec {
+  background: #063F47;
+  background-image: url(../images/ourmission-text-img.svg);
+  background-repeat: no-repeat;
+  background-position: top 20% right 11%;
+  padding: 40px 0;
+}
+.ourmission-sec .ourmission-right {
+  max-width: 573px;
+  width: 100%;
+  margin-right: auto;
+}
+.ourmission-sec .ourmission-right h2 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #D2A83E;
+}
+.ourmission-sec .ourmission-right h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #063F47;
+  color: #FFFFFF;
+  text-align: left;
+}
+.ourmission-sec .ourmission-right p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-top: 32px;
+}
+
+.howit-work-sec {
+  background: #063F47;
+  padding: 40px 0;
+}
+.howit-work-sec .how-it-left {
+  max-width: 573px;
+  margin-right: auto;
+}
+.howit-work-sec .how-it-left h2 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #D2A83E;
+}
+.howit-work-sec .how-it-left h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #063F47;
+  color: #FFFFFF;
+  text-align: left;
+}
+.howit-work-sec .how-it-left p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+.howit-work-sec .howit-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background: url(../images/howit-dots-bg.png) no-repeat right center;
+}
+.howit-work-sec .howit-right .howit-box {
+  background: #1F5259;
+  max-width: 408px;
+  box-shadow: 1px 0px 21px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+}
+.howit-work-sec .howit-right .howit-box .numimg {
+  position: absolute;
+  top: -10%;
+  left: -6%;
+}
+.howit-work-sec .howit-right .howit-box .box-cont {
+  display: flex;
+  flex-direction: row;
+  max-width: 408px;
+  gap: 30px;
+  align-items: center;
+}
+.howit-work-sec .howit-right .howit-box .box-cont .image-sec {
+  max-width: 60px;
+}
+.howit-work-sec .howit-right .howit-box .box-cont .desc {
+  max-width: 278px;
+}
+.howit-work-sec .howit-right .howit-box .box-cont .desc h3 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.0239px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  color: #0E0E0E;
+  color: #FFFFFF;
+}
+.howit-work-sec .howit-right .howit-box .box-cont .desc p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.after-howit-carousel {
+  background: #063F47;
+  padding: 53px 0;
+}
+.after-howit-carousel .carousel-cont {
+  max-width: 1254px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+}
+.after-howit-carousel .carousel-cont .howitslider-title-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px 21px;
+  gap: 17px;
+  background: #1F5259;
+  border-radius: 11.8184px;
+  text-align: center;
+}
+.after-howit-carousel .carousel-cont .howitslider-title-content:hover {
+  background: #35646A;
+}
+.after-howit-carousel .carousel-cont .howitslider-title-content h3 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.0239px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  color: #0E0E0E;
+  color: white;
+  font-size: 36.6652px;
+}
+.after-howit-carousel .carousel-cont .howitslider-title-content p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  font-size: 23.6368px;
+}
+
+.readyto-upgrade-sec {
+  background: #1F5259;
+  padding: 50px 0;
+}
+.readyto-upgrade-sec .readyupgrade-left {
+  background: #063F47;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  max-width: 594px;
+  width: 100%;
+  padding: 49px;
+}
+.readyto-upgrade-sec .readyupgrade-left h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #063F47;
+  color: #FFFFFF;
+}
+.readyto-upgrade-sec .readyupgrade-left .readyup-button {
+  margin-top: 30px;
+  text-align: center;
+}
+.readyto-upgrade-sec .readyupgrade-left .readyup-button .letgetstart-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+
+.product-detailtop-sec {
+  background: #063F47;
+  border-bottom: 3px solid #FFFFFF;
+  padding: 100px 0;
+}
+.product-detailtop-sec .product-contain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+  max-width: 1118px;
+  width: 100%;
+  margin: auto;
+}
+.product-detailtop-sec .product-contain .product-img-sec {
+  max-width: 349px;
+  width: 100%;
+}
+.product-detailtop-sec .product-contain .product-description-sec {
+  max-width: 659px;
+  width: 100%;
+}
+.product-detailtop-sec .product-contain .product-description-sec h2 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #D2A83E;
+}
+.product-detailtop-sec .product-contain .product-description-sec h1 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 82px;
+  color: #FFFFFF;
+}
+.product-detailtop-sec .product-contain .product-description-sec h3 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.0239px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  color: #0E0E0E;
+  color: #FFFFFF;
+  margin: 24px 0;
+}
+.product-detailtop-sec .product-contain .product-description-sec .qtyincdec-addcart {
+  display: flex;
+  align-items: center;
+  max-width: 350px;
+  justify-content: space-between;
+}
+.product-detailtop-sec .product-contain .product-description-sec .qtyincdec-addcart .qty-plusminus {
+  display: flex;
+  align-items: center;
+  max-width: 109px;
+}
+.product-detailtop-sec .product-contain .product-description-sec .qtyincdec-addcart .qty-plusminus .input-qty {
+  margin: 0px 10px;
+}
+.product-detailtop-sec .product-contain .product-description-sec .qtyincdec-addcart .qty-plusminus .input-qty input {
+  width: 30px;
+  border: none;
+  text-align: center;
+  padding: 0;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  background: transparent;
+}
+.product-detailtop-sec .product-contain .product-description-sec .qtyincdec-addcart .qty-plusminus .input-qty input::-webkit-outer-spin-button,
+.product-detailtop-sec .product-contain .product-description-sec .qtyincdec-addcart .qty-plusminus .input-qty input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.product-detailtop-sec .product-contain .product-description-sec .qtyincdec-addcart .qty-plusminus .input-qty input[type=number] {
+  -moz-appearance: textfield;
+}
+.product-detailtop-sec .product-contain .product-description-sec .qtyincdec-addcart .addtocart-btn {
+  max-width: 135px;
+}
+.product-detailtop-sec .product-contain .product-description-sec .qtyincdec-addcart .addtocart-btn .addcart-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+.product-detailtop-sec .product-contain .product-description-sec p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-top: 48px;
+  color: #FFFFFF;
+}
+
+.product-desc-sec {
+  background: url(../images/product-description-element-bg.svg) no-repeat right 13% top 14%, #063F47;
+  padding: 50px 0;
+}
+.product-desc-sec .product-desc-cont {
+  max-width: 983px;
+  width: 100%;
+  margin: auto;
+}
+.product-desc-sec .product-desc-cont p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.related-product-sec {
+  background: url(../images/related-products-dotsbg.png) no-repeat bottom 40% center, #063F47;
+}
+.related-product-sec .popular-contain {
+  max-width: 1547px;
+}
+.related-product-sec .popular-contain .popularpro-slider .popularproduct {
+  display: flex;
+  gap: 66px;
+  justify-content: space-between;
+}
+.related-product-sec .popular-product-title h4 {
+  color: white;
+}
+
+.productdetal-readyupgrade-sec .readyupgrade-left h4 {
+  max-width: 417px;
+  margin: auto;
+}
+
+.faq-sec {
+  background: #063F47;
+  background-image: url(../images/faq-bg-elements.png);
+  background-repeat: no-repeat;
+  background-position: top 29% left 62%;
+  padding: 64px 0;
+}
+.faq-sec .faq-title {
+  margin-bottom: 83px;
+  text-align: center;
+}
+.faq-sec .faq-title h1 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 82px;
+  color: #FFFFFF;
+}
+.faq-sec .faq-cont {
+  max-width: 1118px;
+  width: 100%;
+  margin: auto;
+}
+.faq-sec .faq-cont .accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.faq-sec .faq-cont .accordion .accordion-item {
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  border: 0px;
+}
+.faq-sec .faq-cont .accordion .accordion-button {
+  background: #35646A;
+  border-bottom: 1px solid #FFFFFF;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 1rem 24px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+}
+.faq-sec .faq-cont .accordion .accordion-button:focus {
+  border-color: transparent;
+  box-shadow: unset;
+}
+.faq-sec .faq-cont .accordion .accordion-button::after {
+  background-image: url(../images/faq-down-arrow.svg);
+}
+.faq-sec .faq-cont .accordion .accordion-button:not(.collapsed) {
+  box-shadow: inherit;
+}
+.faq-sec .faq-cont .accordion .accordion-body {
+  background: #577D82;
+}
+.faq-sec .faq-cont .accordion .accordion-body p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.contactus-top-sec {
+  background: url(../images/contactus-top-triangel.svg) no-repeat top 35% right 10%, #063F47;
+  padding: 67px 0;
+}
+.contactus-top-sec .contact-title {
+  margin-bottom: 50px;
+}
+.contactus-top-sec .contact-title h1 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 82px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.contactus-top-sec .contact-infoboxes-sec {
+  max-width: 948px;
+  width: 100%;
+  margin: auto;
+}
+.contactus-top-sec .contact-infoboxes-sec .row {
+  gap: 23px;
+  margin: auto;
+}
+.contactus-top-sec .contact-infoboxes-sec .contact-infobox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  gap: 15px;
+  border: 1px solid #577D82;
+  border-radius: 10px;
+  max-width: 290px;
+}
+.contactus-top-sec .contact-infoboxes-sec .contact-infobox h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.contactus-top-sec .contact-infoboxes-sec .contact-infobox p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-bottom: 0px;
+}
+.contactus-top-sec .contact-infoboxes-sec .contact-infobox p a {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.contact-form-sec {
+  background: url(../images/contact-form-element-bg.svg) no-repeat bottom 27% left 10%, #063F47;
+  padding: 50px 0;
+}
+.contact-form-sec .contact-form-title {
+  max-width: 697px;
+  margin: auto;
+  text-align: center;
+}
+.contact-form-sec .contact-form-title p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  color: #FFFFFF;
+}
+.contact-form-sec .contactform {
+  max-width: 906px;
+  margin: auto;
+}
+.contact-form-sec .contactform .form-check {
+  max-width: 551px;
+  margin: auto auto 24px auto;
+}
+.contact-form-sec .contactform textarea {
+  min-height: 170px;
+}
+.contact-form-sec .contactform .captcha-btninline {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  margin: auto;
+}
+.contact-form-sec .contactform .captcha-btninline .submit-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+
+.login-form-sec {
+  background: url(../images/login-element-left.svg) no-repeat left 5% center, url(../images/login-element-right.svg) no-repeat right 5% center, #063F47;
+  padding: 50px 0;
+}
+.login-form-sec .login-cont {
+  max-width: 1205px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+.login-form-sec .login-cont .welcom-left {
+  background: #1F5259;
+  border-radius: 20px;
+  max-width: 630px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 50px;
+}
+.login-form-sec .login-cont .welcom-left h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #063F47;
+  color: #FFFFFF;
+  text-align: left;
+}
+.login-form-sec .login-cont .welcom-left p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.login-form-sec .login-cont .welcom-left .signup-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+  max-width: 108px;
+}
+.login-form-sec .login-cont .loginform h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #063F47;
+  color: #FFFFFF;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.login-form-sec .login-cont .loginform label {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  padding-bottom: 16px;
+}
+.login-form-sec .login-cont .loginform .forgotpass {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 200%;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  display: block;
+  margin-bottom: 24px;
+}
+.login-form-sec .login-cont .loginform .form-check .form-check-input {
+  margin-top: 5px;
+}
+.login-form-sec .login-cont .loginform .form-check label {
+  font-weight: 300 !important;
+  padding-bottom: 0px !important;
+  font-size: 16px;
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 200%;
+}
+.login-form-sec .login-cont .loginform .login-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+
+.signup-form-sec {
+  background: url(../images/signup-left-element-bg.svg) no-repeat left 5% center, url(../images/signup-right-element-bg.svg) no-repeat right 5% center, #063F47;
+}
+.signup-form-sec .login-cont .loginform .form-check {
+  margin-top: 24px;
+}
+.signup-form-sec .login-cont .loginform .form-check .form-check-input {
+  margin-top: 20px;
+}
+.signup-form-sec .login-cont .loginform .form-check label {
+  max-width: 353px;
+}
+.signup-form-sec .login-cont .loginform .captcha-btninline {
+  margin-top: 24px;
+}
+
+.checkout-sec {
+  background: #063F47;
+  padding: 64px 0 100px 0;
+}
+.checkout-sec .checkout-title {
+  padding-bottom: 64px;
+  text-align: center;
+}
+.checkout-sec .checkout-title h1 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 82px;
+  color: #FFFFFF;
+}
+.checkout-sec .address-detail {
+  max-width: 540px;
+  margin: auto;
+}
+.checkout-sec .address-detail h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #063F47;
+  color: #FFFFFF;
+  text-align: left;
+}
+.checkout-sec .address-detail p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin: 32px 0;
+}
+.checkout-sec .address-detail .addressform .addressform-checkbtn .form-check {
+  margin: 24px 0;
+}
+.checkout-sec .address-detail .addressform .addressform-checkbtn .form-check .form-check-input {
+  margin-top: 20px;
+}
+.checkout-sec .address-detail .addressform .addressform-checkbtn .form-check label {
+  max-width: 353px;
+}
+.checkout-sec .address-detail .addressform .back-continue-btninline {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin: 24px 0;
+}
+.checkout-sec .address-detail .addressform .back-continue-btninline .back-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+  background: #063F47;
+  border: 1px solid #D2A83E;
+  border-radius: 10px;
+}
+.checkout-sec .address-detail .addressform .back-continue-btninline .continue-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+.checkout-sec .order-summary-sec {
+  max-width: 525px;
+  margin: auto;
+}
+.checkout-sec .order-summary-sec h4 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #063F47;
+  color: #FFFFFF;
+  text-align: left;
+}
+.checkout-sec .order-summary-sec .order-summry-cont {
+  margin: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.checkout-sec .order-summary-sec .order-summry-cont .order-box {
+  background: #1F5259;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 31.0239px;
+  gap: 32px;
+}
+.checkout-sec .order-summary-sec .order-summry-cont .order-box h2 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #D2A83E;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+.checkout-sec .order-summary-sec .order-summry-cont .order-box p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+.checkout-sec .order-summary-sec .order-summry-cont .order-box .price-qty .price {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  font-weight: 700;
+  color: #D2A83E;
+  font-size: 18px;
+}
+.checkout-sec .order-summary-sec .order-summry-cont .order-box .price-qty .qty-plusminus {
+  display: flex;
+  align-items: center;
+  max-width: 109px;
+}
+.checkout-sec .order-summary-sec .order-summry-cont .order-box .price-qty .qty-plusminus .input-qty {
+  margin: 0px 10px;
+}
+.checkout-sec .order-summary-sec .order-summry-cont .order-box .price-qty .qty-plusminus .input-qty input {
+  width: 30px;
+  border: none;
+  text-align: center;
+  padding: 0;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  background: transparent;
+}
+.checkout-sec .order-summary-sec .order-summry-cont .order-box .price-qty .qty-plusminus .input-qty input::-webkit-outer-spin-button,
+.checkout-sec .order-summary-sec .order-summry-cont .order-box .price-qty .qty-plusminus .input-qty input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.checkout-sec .order-summary-sec .order-summry-cont .order-box .price-qty .qty-plusminus .input-qty input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.total-subtotal-sec {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 16px;
+}
+.total-subtotal-sec .title {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.total-subtotal-sec .amount {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+}
+.total-subtotal-sec .vat-sec {
+  margin: 16px 0px;
+}
+.total-subtotal-sec .promocode {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+  gap: 16px;
+}
+.total-subtotal-sec .promocode .form-control {
+  width: 423px;
+}
+.total-subtotal-sec .promocode .apply-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+.total-subtotal-sec .totaltitle {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.0239px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  color: #0E0E0E;
+  color: #FFFFFF;
+}
+.total-subtotal-sec .totalamount {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.0239px;
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  color: #0E0E0E;
+  color: #D2A83E;
+}
+
+.payment-top-sec {
+  background: url(../images/contactus-top-triangel.svg) no-repeat right 15% bottom 28%, #063F47;
+  padding: 64px 0;
+}
+.payment-top-sec .title {
+  max-width: 535px;
+  margin: auto;
+  text-align: center;
+}
+.payment-top-sec .title h1 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 82px;
+  color: #FFFFFF;
+}
+.payment-top-sec .title p {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-top: 50px;
+}
+
+.payment-complete-sec .order-summary-sec {
+  margin-left: 0;
+}
+.payment-complete-sec .order-summary-sec .order-summry-cont {
+  margin: 0;
+}
+.payment-complete-sec .order-summary-sec .order-summry-cont .order-box {
+  gap: 15px;
+}
+.payment-complete-sec .order-summary-sec .order-summry-cont .order-box .price-qty .purchased-qty {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+}
+.payment-complete-sec .order-summary-sec .order-summry-cont .order-box .price-qty .purchased-qty span {
+  color: #D2A83E;
+}
+.payment-complete-sec .backhome-btn {
+  margin: 50px 0;
+}
+.payment-complete-sec .backhome-btn .back-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+.payment-complete-sec .payment-total-sec {
+  max-width: 525px;
+}
+
+.payment-fail-topsec {
+  background: url(../images/payment-fail-top-element.svg) no-repeat right 15% bottom 28%, #063F47;
+}
+
+.payment-fail-sec .order-summary-sec {
+  margin-left: 0;
+}
+.payment-fail-sec .order-summary-sec .order-summry-cont {
+  margin: 0;
+}
+.payment-fail-sec .order-summary-sec .order-summry-cont .order-box {
+  gap: 15px;
+}
+.payment-fail-sec .order-summary-sec .order-summry-cont .order-box .price-qty .purchased-qty {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+}
+.payment-fail-sec .order-summary-sec .order-summry-cont .order-box .price-qty .purchased-qty span {
+  color: #D2A83E;
+}
+.payment-fail-sec .backhome-btn {
+  margin: 50px 0;
+}
+.payment-fail-sec .backhome-btn .back-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+.payment-fail-sec .payment-total-sec {
+  max-width: 525px;
+}
+
+.product-store-sec {
+  background: #063F47;
+  padding: 64px 0;
+}
+.product-store-sec .shop-top-filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.product-store-sec .shop-top-filters .search-filter {
+  width: 278px;
+}
+.product-store-sec .shop-top-filters .search-filter .form-control {
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 8px 24px;
+  background-image: url(../images/product-search-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  color: #0E0E0E;
+}
+.product-store-sec .shop-top-filters .sort-filter {
+  width: 278px;
+}
+.product-store-sec .shop-top-filters .sort-filter .form-control {
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 8px 24px;
+  background-image: url(../images/dropdown-sort-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  color: #0E0E0E;
+}
+.product-store-sec .shop-top-filters .product-showing {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 200%;
+  color: #FFFFFF;
+}
+.product-store-sec .shop-sec .left-filters {
+  max-width: 278px;
+}
+.product-store-sec .shop-sec .left-filters .categories h2 {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #D2A83E;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.product-store-sec .shop-sec .left-filters .categories ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+.product-store-sec .shop-sec .left-filters .categories ul li a {
+  text-decoration: none;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.product-store-sec .shop-sec .left-filters .categories ul li span {
+  color: #D2A83E;
+}
+.product-store-sec .shop-sec .left-filters .price-range {
+  margin: 32px 0;
+}
+.product-store-sec .shop-sec .left-filters .price-range .price-minmax {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 16px;
+  text-align: center;
+  align-items: center;
+}
+.product-store-sec .shop-sec .left-filters .price-range .price-minmax label {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 200%;
+  color: #FFFFFF;
+  text-align: center;
+}
+.product-store-sec .shop-sec .left-filters .price-range .price-minmax img {
+  margin-top: 20px;
+}
+.product-store-sec .shop-sec .left-filters .price-range .price-minmax input {
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 10px 24px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.08em;
+  color: #0E0E0E;
+  text-align: center;
+}
+.product-store-sec .shop-sec .left-filters .price-btn-inline {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.product-store-sec .shop-sec .left-filters .price-btn-inline .apply-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+.product-store-sec .shop-sec .left-filters .price-btn-inline .reset-btn {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+  border: 1px solid #F6C23E;
+  border-radius: 10px;
+  color: #FFFFFF;
+  background: transparent;
+}
+.product-store-sec .popular-products-section {
+  background: none;
+  padding: 0;
+}
+.product-store-sec .popular-products-section .popularpro-slider {
+  margin: 0;
+}
+
+.pagination-section {
+  max-width: 272px;
+  margin: 0px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.pagination-section .previous {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 10px;
+  text-decoration: none;
+}
+.pagination-section .next {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+  color: #F6C23E;
+  padding: 10px;
+  text-decoration: none;
+}
+.pagination-section .pagination-items {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+.pagination-section .pagination-items a {
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+  color: #F6C23E;
+  padding: 10px;
+  text-decoration: none;
+}
+.pagination-section .pagination-items .active-pagination {
+  color: #FFFFFF;
+  background: #F6C23E;
+}
+
+.term-condition-sec {
+  padding: 64px 0;
+  background: url(../images/term-condition-img.png) no-repeat top 228px center;
+  background-color: #063F47;
+}
+.term-condition-sec h1 {
+  font-family: "DINOT";
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 82px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+.term-condition-sec .term-condition-wrap {
+  max-width: 1073px;
+  margin: auto;
+}
+.term-condition-sec .term-condition-wrap p {
+  color: white;
+  font-family: "DINOT";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 33px;
+}
+
+.privacy-policy-sec {
+  background: url(../images/privacy-policy-sec-img.png) no-repeat top 229px center;
+  background-color: #063F47;
+}
+
+.error-sec {
+  background: url(../images/error-bg.png) no-repeat center center;
+  background-color: #063F47;
+  padding: 184px 0;
+}
+.error-sec .error-wrap {
+  max-width: 630px;
+  margin: auto;
+  position: relative;
+  left: -15px;
+}
+.error-sec .error-wrap .error-card {
+  margin-top: 98px;
+  padding: 50px;
+  background: #1F5259;
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+}
+.error-sec .error-wrap .error-card p {
+  font-family: "DINOT";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.error-sec .error-wrap .error-card a {
+  font-family: "DINOT";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: white;
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+}
+
+.my-account-sec {
+  padding: 64px 0;
+  background: url(../images/top-account-img.png) no-repeat center right 21%;
+  background-color: #063F47;
+}
+.my-account-sec h1 {
+  font-family: "DINOT";
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 82px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+.my-account-sec .my-account-tab {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 5px;
+}
+.my-account-sec .my-account-tab a {
+  font-family: "DINOT";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+.my-account-sec .my-account-tab a.active {
+  color: #D2A83E;
+}
+.my-account-sec .my-account-links a {
+  font-family: "DINOT";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 16px;
+}
+.my-account-sec .my-account-links a.active {
+  color: #D2A83E;
+}
+
+.my-Account-main-sec {
+  background-color: #063F47;
+  padding: 50px 0;
+}
+.my-Account-main-sec .my-account-wrap {
+  max-width: 1371px;
+  display: flex;
+  align-items: center;
+  gap: 112px;
+}
+.my-Account-main-sec .my-account-wrap .hello-customer-sec {
+  max-width: 432px;
+  background-color: #1F5259;
+  padding: 50px 50px 50px 70px;
+  border-radius: 20px;
+  margin-top: 27px;
+  position: relative;
+}
+.my-Account-main-sec .my-account-wrap .hello-customer-sec::after {
+  content: "";
+  position: absolute;
+  top: -27px;
+  left: -188px;
+  height: 256px;
+  width: 256px;
+  background: url(../images/myAccount-Pattern.svg) no-repeat center;
+}
+.my-Account-main-sec .my-account-wrap .hello-customer-sec h3 {
+  color: white;
+  font-family: "DINOT";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 32px 0;
+}
+.my-Account-main-sec .my-account-wrap .hello-customer-sec h4 {
+  font-family: "DINOT";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.my-Account-main-sec .my-account-wrap .hello-customer-sec h4 a {
+  color: #D2A83E;
+}
+.my-Account-main-sec .my-account-wrap .hello-customer-sec p {
+  font-family: "DINOT";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-bottom: 50px;
+}
+.my-Account-main-sec .my-account-wrap .hello-customer-sec h5 {
+  font-family: "DINOT";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-bottom: 16px;
+}
+.my-Account-main-sec .my-account-wrap .hello-customer-sec .account-link a {
+  font-family: "DINOT";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  display: block;
+  text-decoration: none;
+}
+.my-Account-main-sec .my-account-wrap .hello-customer-sec .account-link a.active {
+  color: #D2A83E;
+}
+.my-Account-main-sec .my-account-wrap .personal-sec {
+  max-width: 817px;
+}
+.my-Account-main-sec .my-account-wrap .personal-sec h2 {
+  font-family: "DINOT";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-bottom: 32px;
+}
+.my-Account-main-sec .my-account-wrap .personal-sec .form-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 24px;
+}
+.my-Account-main-sec .my-account-wrap .personal-sec .form-wrap .form-items {
+  flex: 1 1 47%;
+}
+.my-Account-main-sec .my-account-wrap .personal-sec .form-wrap button {
+  background: #D2A83E;
+  border-radius: 10px;
+  font-family: "DINOT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 11px 15px;
+  display: inline-block;
+  margin-top: 8px;
+  border: 0;
+}
+
+.account-form .form-control,
+.account-form .form-select {
+  padding: 13px 24px;
+  background-color: #1F5259;
+  border-radius: 5px;
+  font-family: "DINOT";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  border: 0;
+}
+.account-form .form-control::-moz-placeholder, .account-form .form-select::-moz-placeholder {
+  color: white;
+}
+.account-form .form-control::placeholder,
+.account-form .form-select::placeholder {
+  color: white;
+}
+.account-form .form-select {
+  background: url(../images/caret-down.svg) no-repeat center right 16px !important;
+  background-color: #1F5259 !important;
+}
+
+.order-history-sec {
+  gap: 69px !important;
+  align-items: start !important;
+}
+.order-history-sec .order-hello-sec::after {
+  content: "";
+  position: absolute;
+  top: -27px;
+  left: -188px;
+  height: 256px;
+  width: 256px;
+  background: url(../images/order-pattern.svg) no-repeat center !important;
+}
+.order-history-sec .order-history-card-wrap {
+  max-width: 939px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 69px;
+}
+.order-history-sec .order-history-card-wrap .order-history-card {
+  max-width: 435px;
+  flex: 1 1 46%;
+  width: 100%;
+  background: #063F47;
+  border: 2px solid #D2A83E;
+  border-radius: 20px;
+  padding: 50px;
+}
+.order-history-sec .order-history-card-wrap .order-history-card .order-cart-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.order-history-sec .order-history-card-wrap .order-history-card .order-cart-items h4 {
+  font-family: "DINOT";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: white;
+  margin: 0;
+  max-width: 93px;
+  width: 100%;
+}
+.order-history-sec .order-history-card-wrap .order-history-card .order-cart-items h5 {
+  max-width: 134px;
+  width: 100%;
+  font-family: "DINOT";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+.order-history-sec .order-history-card-wrap .order-history-card .view-btn {
+  font-family: "DINOT";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  padding: 11px 15px;
+  border: 1px solid #F6C23E;
+  border-radius: 10px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.product-store-sec .shop-sec .left-filters .price-range h2 {
+  font-family: "DINOT";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.contactform-checkbtn {
+  margin-top: 16px;
+}
+
+.payment-complete-sec .title {
+  font-size: 26px;
+  line-height: 33px;
+}
+.payment-complete-sec .amount {
+  font-size: 26px;
+  line-height: 33px;
+}
+.payment-complete-sec .order-totla {
+  margin-top: 16px;
+}/*# sourceMappingURL=style.css.map */

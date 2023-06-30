@@ -1,0 +1,16 @@
+Swarali:- Product Catalogue Page, Login Page, Register Page
+
+Dheeraj:- FAQ Page, Checkout Page, Payment Completed Page, Paymeny Failed Page
+
+Rahul:- Home Page, Order History, My Account Page
+
+Priya:- About Us Page, Contact US Page, 404 Page
+
+Sakshi:- Product Page, Terms and Conditions, Privacy Policy, Contact Us Page
+
+
+
+
+Delivery Date:- 06/07/2023
+Task Given Date:- 30/06/2023
+Figma Link:- https://www.figma.com/file/WBn5wq2Lgd8ZtwtNP2o9Gj/AD247----Reskin-(Business-service)----SharpedgeSolution?node-id=3357%3A851&mode=dev
